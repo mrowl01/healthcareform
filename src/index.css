@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet");
+
+body {
+  margin: 0;
+  
+}
+html{
+	font-family:  'Lato', sans-serif;
+}
+h1{
+   
+}
+h1,h3,button, span{
+	margin: 0;
+	font-size: 2.3rem;
+	color:white;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  	font-weight: 300;
+   font-style: normal;
+   letter-spacing: 0.0333333em;
+   text-transform: none;
+   line-height: 1.1em;
+   margin: 1em 0 .5em;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  transform: scale(1, 1.1);
+}
+h3{
+	font-size: 1.2rem;
+	transform: scale(1, 1.2);
+}
+input{
+	
+}
+
+/*p{
+	margin: 0;
+	font-size: 1.2rem;
+	color:white;
+	 display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: europa;
+  font-weight: 300;
+   font-style: normal;
+   letter-spacing: 0.0333333em;
+   text-transform: none;
+   line-height: 1.1em;
+   margin: 1em 0 .5em;
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}*/
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
