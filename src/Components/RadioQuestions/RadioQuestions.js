@@ -12,7 +12,7 @@ class RadioQuestions extends Component {
           <h1> {this.props.display} </h1>
           <h1>{this.props.display2}</h1>
           <p> {this.props.description} </p>
-          {(this.props.image) ? <img width = "350px" src = {this.props.image} /> : null} 
+          {(this.props.image) ? <img width = "250px" src = {this.props.image} /> : null} 
           <hr/>
             <div className = 'options'>
               {this.props.options.map((item, index)=>(

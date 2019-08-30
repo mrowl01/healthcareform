@@ -36,7 +36,7 @@ class RoofDesignPage extends Component {
           <h3>{this.props.display2} </h3>
           <br/>
           <p style = {{fontSize: '1.3rem'}}className = 'description'> {this.props.description} </p>
-          <img width = "350px" src = {this.props.image} />
+          <img width = "250px" src = {this.props.image} />
           <hr/>
           <div className = 'fields'>
             {this.props.options.map((item, index)=>(
