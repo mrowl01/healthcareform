@@ -1,28 +1,28 @@
 export const FormData = {
 	intro:{
-		display: 'Solarize America is the new national program which helps homeowners save the maximum amount of money with solar across the country.',
+		display: "Solarize America's Healthcare Professionals free membership is a new national savings program launched to exclusively assist healthcare professionals interested in going solar. Join for free to see if you qualify.",
 		display2:'',
-		options: ['Yes, I do', 'No, I rent'],
+		options:['test'],
 		page: 0,
 		description: '',
-		percentage: 0,
+		percentage: 10,
 		key:'intro'
 	},
-	1:{
+	2:{
 		display: 'Do you have a "SMART" Meter?' ,
 		display2:'',
 		options: ['Yes', 'No'],
-		page: 1,
+		page: 2,
 		image: 'https://images.typeform.com/images/d4XNM5icGjKJ/image/default',
 		description: 'Example "SMART" Meter:',
 		percentage:20,
 		key:'Has_SMART_METER?'
 	},
-	2: {
+	20: {
 		display: 'How are your monthly electricity bills?',
 		display2:'',
 		options: ['$50-$100', '$101 - $150', '$151 - $200', '$201+'],
-		page: 2,
+		page: 3,
 		description: '',
 		percentage:30,
 		key:'Electric_Bill'
@@ -40,16 +40,16 @@ export const FormData = {
 		display: "What is your name?",
 		display2:'',
 		options: ['Your name'],
-		page: 5,
+		page: 6,
 		description: '(For your solar design)',
 		percentage:60,
 		key:'Credit Score'
 	},
-	5: {
+	6: {
 		display: "What is your name stranger?",
 		display2:'',
 		options: ['Your name'],
-		page: 5,
+		page: 6,
 		description: 'My name is Chris, lets not be strangers for long!',
 		percentage:60,
 		key:'Credit Score'
@@ -67,17 +67,17 @@ export const FormData = {
 		display: "There are different programs based off your credit, what range are you in?",
 		display2:'',
 		options: ['599 and below', '600-650', '651+'],
-		page: 4,
+		page: 10,
 		description: '',
 		percentage:90,
 		key:'Credit Score'
 	},
 	//page 7 confirmation text
-	7: {
+	20: {
 		display: "What's the best number to text confirmation to when your design ready?",
 		display2:'',
 		options: ['Mobile Number'],
-		page: 4,
+		page: 8,
 		description: '',
 		percentage:80,
 		key:'Credit Score'
@@ -92,11 +92,11 @@ export const FormData = {
 		key:'CellNumber'
 	},
 	//page 6 roof deign
-	6: {
+	7: {
 		display: "What email should we use to send your custom roof design?",
 		display2:'',
 		options: ['Email'],
-		page: 4,
+		page: 7,
 		description: 'Example solar roof design:',
 		image:'https://images.typeform.com/images/iHS53ZvbqRef/image/default',
 		percentage:70,
@@ -141,11 +141,11 @@ export const FormData = {
 		percentage:52,
 		key:'Home Owner addressform'
 	},
-	4:{
+	5:{
 		display: 'What is your address?' ,
 		display2:'',
 		options: ['Address'],
-		page: 0,
+		page: 5,
 		description: "We'll use satellite imaging and see if your roof faces the right direction for solar",
 		percentage:52,
 		key:'Home Owner addressform'

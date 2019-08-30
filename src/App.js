@@ -217,6 +217,18 @@ class App extends Component {
     if(this.state.data.pageNumber === 0){
       return(
         <React.Fragment>
+        <IntroPage
+          display = {FormData['intro'].display}
+          display2 = {FormData['intro'].display2}
+          percentage = {FormData['intro'].percentage}
+          description = {FormData['intro'].description}
+          onClick = {this.incrementPage}
+          />
+        </React.Fragment>
+      )
+    } else if(this.state.data.pageNumber === 1){
+      return(
+        <React.Fragment>
         <ZipcodePage
           pageNumber = {this.state.data.pageNumber} options = {FormData['zipcodepage'].options} 
           description = {FormData['zipcodepage'].description} 
