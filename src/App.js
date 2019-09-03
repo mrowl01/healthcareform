@@ -33,13 +33,13 @@ class App extends Component {
       },
       fields: {
         title: 'NONAME',
-        phone: [{ "type": "mobile", "value": "NOPHONE" }],
-        email: [{ "type": "other", "value": "NOEMAIL" }],
-        source: '',
-        zip: 'NOZIPCODE',
-        street: 'NOSTREET',
-        state: 'NOSTATE',
-        city: 'NO CITY',
+        phone: [{ "type": "mobile", "value": " " }],
+        email: [{ "type": "other", "value": " " }],
+        source: ' ',
+        zip: ' ',
+        street: ' ',
+        state: ' ',
+        city: ' ',
         leadsource:'Funnel_Healthcare_8_30_19'
       }
     }
