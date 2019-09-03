@@ -32,7 +32,7 @@ class App extends Component {
         percentage: 20,
       },
       fields: {
-        title: 'NONAME',
+        title: ' ',
         phone: [{ "type": "mobile", "value": " " }],
         email: [{ "type": "other", "value": " " }],
         source: ' ',
